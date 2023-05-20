@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+
+<style>
+    .Padre{
+        display: flex;
+        padding: 15%;
+        background-image: url("https://images2.alphacoders.com/111/111200.jpg");
+    }
+
+    .Foto{
+        width: 30%;
+
+    }
+
+    .FotoPortada{
+        width: 100%;
+    }
+
+    .Detalle{
+        width: 60%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .btnportada{
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+</style>
+
+
+</head>
+<body>
+    <div class="Padre">
+        <div class="Foto">
+            <img class="FotoPortada" src="https://i.pinimg.com/236x/50/02/d0/5002d0dade208db1c80e4f51b434aa41--breaking-bad-poster-breaking-bad-art.jpg" alt="">
+        </div>
+
+        <div class="Detalle">
+
+            <h1>
+                Breaking Bad
+            </h1>
+
+            <em>
+                Acciòn / Drama / Narcos
+            </em>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga laboriosam saepe deleniti suscipit optio magnam, aliquam magni at. Nihil illo quos, neque sint maiores molestiae at non. Ex, exercitationem perspiciatis! Itaque aperiam deleniti, reprehenderit numquam sed aut molestias, iure dignissimos laborum facilis voluptates id eum repudiandae animi saepe corrupti hic.
+            </p>
+
+            <ul>
+                <li>
+                    Acciòn
+                </li>
+                <li>
+                    Drama
+                </li>
+                <li>
+                    Suspenso
+                </li>
+            </ul>
+            <button onclick="vertrailer()" class="btnportada">
+                Ver trailer
+            </button>
+
+
+
+        </div>
+
+    </div>
+
+<script>
+    function vertrailer(){
+        window.open("https://youtu.be/YZWy7J1u9Wo","_blank")
+    }
+</script>
+
+
+
+</body>
+</html>
